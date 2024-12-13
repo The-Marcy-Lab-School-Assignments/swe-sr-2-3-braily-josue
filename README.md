@@ -126,7 +126,6 @@ grid-template-areas:
 - Use `grid-template-columns`/`grid-template-rows` when you need precise control over grid sizing without explicitly naming areas. This approach is ideal for simpler layouts where the structure doesn't need to be referenced semantically or rearranged frequently.
 - Use `grid-template-areas` when you want a clear, semantic representation of your layout. This approach is especially helpful for larger, more complex grids, as it improves readability and maintainability. It also makes it easier to rearrange or update the layout, as the named areas can be referenced directly in your CSS.
 
-
 ## Prompt 4 - Josue
 
 Explain the `min-width` and `max-width` keywords in media queries. How do they help create responsive breakpoints for different screen sizes?
@@ -134,8 +133,6 @@ Explain the `min-width` and `max-width` keywords in media queries. How do they h
 ### Response 4
 
 `min-width` and `max-width` are like rules you set for your website’s design to make it look good on different screen sizes. `min-width` means "start using these styles when the screen is at least this wide." It’s great for building mobile-first designs, where you add more styles as the screen gets bigger. `max-width` means "use these styles only if the screen is this wide or smaller." It’s often used when designing for bigger screens first and adjusting for smaller ones. Together, they let you create breakpoints—those are the spots where your design changes to fit better, like making things stack on a phone or spread out on a big monitor.
-
----
 
 ## Prompt 5 - Josue
 
